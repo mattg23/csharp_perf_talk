@@ -22,7 +22,9 @@ namespace DataGen
 
         static void Main(string[] args)
         {
-            
+            // runby:
+            // > cd /example/DataGen
+            // > dotnet run
 
             var readings_per_city = 650_000;
             long lines = readings_per_city * top100ProminentCities.Length;
