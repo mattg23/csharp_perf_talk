@@ -80,6 +80,7 @@ var currentTs = BinaryPrimitives.ReadDoubleBigEndian(spanBytes);
     - #link("https://learn.microsoft.com/en-us/dotnet/api/system.runtime.interopservices.memorymarshal?view=net-8.0")[`MemoryMarshal`]
     - #link("https://learn.microsoft.com/en-us/dotnet/api/system.runtime.interopservices.collectionsmarshal?view=net-8.0")[`CollectionsMarshal`]
     - #link("https://learn.microsoft.com/en-us/dotnet/api/system.buffers.arraypool-1?view=net-8.0")[`ArrayPool<T>`]
+    - #link("https://learn.microsoft.com/en-us/dotnet/api/system.buffers.memorypool-1?view=net-8.0")[`MemoryPool<T>`]
     - #link("https://learn.microsoft.com/en-us/dotnet/api/system.memoryextensions?view=net-8.0")[`MemoryExtensions`]
 ]
 
