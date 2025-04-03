@@ -4,7 +4,11 @@
     {
         static void Main(string[] args)
         {
-            BenchmarkDotNet.Running.BenchmarkRunner.Run(typeof(Program).Assembly);
+            BenchmarkDotNet.Running.BenchmarkRunner.Run(new Type[]
+            {
+                typeof(ParseFloatBenchmark),
+               // typeof(LoggingBenchmark)
+            });
         }
     }
 }
