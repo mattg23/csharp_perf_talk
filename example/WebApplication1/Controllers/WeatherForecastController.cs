@@ -17,9 +17,15 @@ public class WeatherForecastController : ControllerBase
         this.weatherDataProvider = weatherDataProvider;
     }
 
-    [HttpGet]
+    [HttpGet("/slow")]
     public IEnumerable<WeatherDataSummary> Get()
     {
         return weatherDataProvider.GetSummary();
     }
+    [HttpGet]
+    public IEnumerable<WeatherDataSummary> GetFast()
+    {
+        return weatherDataProvider.GetSummaryFast();
+    }
+
 }

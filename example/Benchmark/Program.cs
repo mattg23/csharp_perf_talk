@@ -6,9 +6,9 @@
         {
             BenchmarkDotNet.Running.BenchmarkRunner.Run(new Type[]
             {
-                //typeof(ParseFloatBenchmark),
+                typeof(ParseFloatBenchmark),
                // typeof(LoggingBenchmark)
-               typeof(SlideExample)
+              // typeof(SlideExample)
             });
         }
     }
